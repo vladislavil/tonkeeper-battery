@@ -1,0 +1,57 @@
+section.main__how-use {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    padding: 15px 0;
+
+    .how-use__title {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    
+    .container {
+        overflow: hidden;
+    }
+    
+    .how-use__cards {
+        overflow-x: scroll;
+        scrollbar-width: none;
+        max-width: 100%;
+    }
+    
+    .how-use__cards-wrapper {
+        display: flex;
+        margin: 0 -15px;
+    }
+    
+    .how-use__card {
+        display: flex;
+        flex-direction: column;    
+        min-width: 320px;
+        margin: 0 15px;
+        padding: 20px;
+    
+        background: 
+            linear-gradient($color-background-secondary 0 0) padding-box,
+            linear-gradient($color-svg-icon, $color-background-primary) border-box;
+        border: 1px solid transparent;
+        border-radius: 15px;
+    }
+    
+    .how-use__card-title {
+        margin-bottom: 10px;
+        text-align: center;
+        color: $color-text-primary;
+    }
+    
+    .how-use__card-description {
+        margin-bottom: 10px;
+        text-align: center;
+        color: $color-text-secondary;
+    }
+    
+    .how-use__card-image img {
+        border-radius: 15px;
+    }
+    
+}

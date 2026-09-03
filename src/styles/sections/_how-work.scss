@@ -1,0 +1,29 @@
+section.main__how-work {
+    margin-bottom: 20px;
+    
+    .how-work__content {
+        padding: 15px;
+        border-radius: 15px;
+        background: 
+            linear-gradient($color-background-secondary 0 0) padding-box,
+            linear-gradient($color-svg-icon, $color-background-primary) border-box;
+        border: 1px solid transparent;
+        border-radius: 15px;
+        margin-bottom: 10px;
+        }
+
+    .how-work__title {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .how-work__description {
+        text-align: center;
+        margin-bottom: 15px;
+        color: $color-text-secondary;
+    }
+
+    .how-work__description:last-child {
+        margin-bottom: 0;
+    }
+}
